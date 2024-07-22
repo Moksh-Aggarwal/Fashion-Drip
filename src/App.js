@@ -6,7 +6,7 @@ import Navbar from './Components/Navbar/Navbar';
 
 function App() {
   return (
-    <div className='cont2 w-max'>
+    <div className='cont w-max'>
     
     {/* <Navbar/> */}
     <Navbar/>
