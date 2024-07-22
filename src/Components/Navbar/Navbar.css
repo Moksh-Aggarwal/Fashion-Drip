@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap');
+
+.header {
+    font-family: "Playwrite BE VLG", cursive !important;
+
+    font-weight: 800;
+
+    font-size: 900px;
+}
+
+.navele {
+    font-family: 'Archivo', Helvetica, sans-serif !important;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: large;
+    background-color: transparent;
+    transition: all 0.7s;
+}
+
+.signb {
+    font-family: 'Archivo', Helvetica, sans-serif !important;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: large;
+    transition: all 0.3s;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+
+.signb:hover {
+    color: white;
+    top: -0.2rem;
+
+}
+
+.logo {
+    transition: transform .7s ease-in-out;
+}
+
+.logo:hover {
+    transform: rotate(360deg);
+
+}
+
