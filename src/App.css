@@ -1,11 +1,17 @@
-.cont {
+.cont2 {
   background-color: rgb(192,192,192);
   margin: 0;
   padding: 0;
   /* min-width:100%; */
   /* max-width: fit-content !important; */
-  height: 100vh;
   
+
+}
+a{
+  text-decoration: none !important;
+}
+.shop:hover{
+  color: white !important;
 }
 
 
