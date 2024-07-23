@@ -1,0 +1,39 @@
+.heading{
+    font-family: 'Archivo', Helvetica, serif;
+}
+.slogen{
+    font-family:'Archivo', Helvetica, serif;
+}
+
+.container2{
+    height: 300rem;
+    width: 100%;
+    border: 3px solid rgb(0, 0, 0);
+}
+.explore{
+    background-color: #222222;
+    font-family: 'Archivo', Helvetica, sans-serif;
+    text-align: center;
+}
+.product{
+    font-size: 4.8em;
+    margin-left: 30px;
+    font-weight: 600;
+    font-family: 'Archivo', Helvetica, sans-serif;
+}
+.product-p{
+    font-family: 'Archivo', Helvetica, sans-serif;
+    font-size: 1.7em;
+    font-weight: 500;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.items{
+    display: inline-flex;
+   gap: 2.5rem;
+   justify-content: center;
+}
+.product-section{
+    margin-bottom: 90px;
+}
