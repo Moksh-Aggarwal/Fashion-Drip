@@ -15,7 +15,7 @@ function Feature() {
                         <img class="p-8 rounded-t-lg" src="https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=600" alt="product image" />
                     </a>
                     <div class="px-5 pb-5">
-                        <a href="#">
+                        <a href="">
                             <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport</h5>
                         </a>
                         <div class="flex items-center mt-2.5 mb-4">

@@ -6,7 +6,16 @@ function Member() {
     <h1 class="heading text-6xl md:text-7xl lg:text-9xl font-bold  my-2 ms-7 text-gray  " >Membership Plans</h1>
     <p class="slogen text-start font-normal text-xl md:text-3xl lg:text-4xl my-5 ms-4 text-gray leading-tight" >Choose a plan that suits your needs</p>
 
-
+    <ul class="items-center w-full text-sm font-medium text-gray-900 bg-transparent  sm:flex dark:bg-gray-700 dark:border-gray-600 dark:text-white justify-center">
+        <li  class="flex items-center ps-4 dark:border-gray-700">
+          <input id="bordered-radio-1" type="radio" value="" name="bordered-radio" class="w-4 h-4 text-black-600 bg-gray-100   dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:bg-gray-700 dark:border-gray-600 checked:bg-green-500 " checked/>
+          <label for="bordered-radio-1" class="w-full py-4 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300 text-xl" >Monthly</label>
+        </li >
+        <li class="flex items-center ps-4 dark:border-gray-700">
+          <input id="bordered-radio-1" type="radio" value="" name="bordered-radio" class="w-4 h-4 text-black-600 bg-gray-100   dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:bg-gray-700 dark:border-gray-600" />
+          <label for="bordered-radio-1" class="w-full py-4 ms-2 text-sm font-medium text-gray-900 dark:text-gray-300 text-xl ">Yearly</label>
+        </li>
+      </ul>
 
 
     <div className='member flex flex-row flex-wrap justify-center items-center w-full'>

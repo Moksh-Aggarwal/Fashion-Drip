@@ -34,7 +34,6 @@ function Navbar() {
                 <span class="sr-only">Search icon</span>
               </div>
 
-<<<<<<< HEAD
               <input type="text" id="search-navbar" class="block w-full  px-9  text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Products..." />
 
             </div>
@@ -42,14 +41,6 @@ function Navbar() {
             <button type="button" class="signb text-black text-sm font-semibold  focus:outline-none md:text-lg md:font-semibold  rounded-lg  px-4 py-2.5 mx-2  my-3  dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700 justify-end  border border-black border-2  ">Register</button>
             <button type="button" class="signb text-black text-sm font-semibold    focus:outline-none md:text-lg md:font-semibold rounded-lg  px-4 py-2.5 mx-2  my-3 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700 justify-end  border border-black border-2  ">Sign In</button>
             </div >
-=======
-              <input type="text" id="search-navbar" class="block w-full  px-5  text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50  dark:bg-gray-700 focus:border-black-800 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Searchmain..." />
-
-            </div>
-
-            <button type="button" class="bg signb text-black bg-transparent  focus:outline-none   font-medium rounded-lg text-sm px-5 py-2.5 mx-2  mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700 justify-end  border border-black border-2  ">Register</button>
-            <button type="button" class="signb text-black bg-transparent  focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 mx-2  mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700 justify-end  border border-black border-2  ">Sign In</button>
->>>>>>> 4d3dbeb (saving misc changes)
             <button data-collapse-toggle="navbar-search" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-search" aria-expanded="false">
             
 
