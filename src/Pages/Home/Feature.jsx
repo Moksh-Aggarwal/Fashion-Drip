@@ -1,16 +1,16 @@
 import React from 'react'
-
+import './home.css'
 function Feature() {
     return (
-        <div className='products-section flex flex-col items-center pt-30 w-full' style={{ margin: '4rem 0rem' }}>
-            <h1 className='product text-3xl font-extrabold leading-none tracking-tight md:text-5xl lg:text-6xl text-gray'>Featured Product</h1>
-            <p className='product-p font-normal text-4xl ms-4 text-gray leading-tight'>Check out our most popular items</p>
+        <div className=' flex flex-col items-center my-16 w-full' >
+            <h1 className='heading ms-7  text-6xl md:text-7xl lg:text-9xl font-bold  my-2  text-gray '>Featured Products</h1>
+            <p className='slogen text-start font-normal text-xl md:text-3xl lg:text-4xl my-5 ms-4 text-gray leading-tight'>Check out our most popular items</p>
 
 
 
-            <div className='items flex flex-row flex-wrap justify-between items-between w-full'>
+            <div className=' flex flex-row flex-wrap justify-around w-full'>
 
-                <div class=" w-full my-20 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <div class=" w-full my-20 mx-5 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
                         <img class="p-8 rounded-t-lg" src="https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=600" alt="product image" />
                     </a>
@@ -40,7 +40,7 @@ function Feature() {
                         </div>
                         <div class="flex items-center justify-between">
                             <span class="text-3xl font-bold text-gray-900 dark:text-white">$599</span>
-                            <a href="#" class="text-white bg-gray-600  hover:bg-gray-500 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add to cart</a>
+                            <a href="#" class="text-white bg-gray-600  hover:bg-gray-500  font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add to cart</a>
                         </div>
                     </div>
                 </div>
@@ -48,7 +48,7 @@ function Feature() {
 
 
 
-                <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <div class="w-full my-20 mx-5 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
                         <img class="p-8 rounded-t-lg" src="https://images.pexels.com/photos/10877346/pexels-photo-10877346.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="product image" />
                     </a>
@@ -78,7 +78,7 @@ function Feature() {
                         </div>
                         <div class="flex items-center justify-between">
                             <span class="text-3xl font-bold text-gray-900 dark:text-white">$100</span>
-                            <a href="#" class="text-white bg-gray-600  hover:bg-gray-500 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add to cart</a>
+                            <a href="#" class="text-white bg-gray-600  hover:bg-gray-500  font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add to cart</a>
                         </div>
                     </div>
                 </div>
@@ -87,7 +87,7 @@ function Feature() {
 
 
 
-                <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <div class="w-full my-20 mx-5 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
                         <img class="p-8 rounded-t-lg" src="https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=600" alt="product image" />
                     </a>
@@ -117,14 +117,14 @@ function Feature() {
                         </div>
                         <div class="flex items-center justify-between">
                             <span class="text-3xl font-bold text-gray-900 dark:text-white">$69</span>
-                            <a href="#" class="text-white bg-gray-600  hover:bg-gray-500 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add to cart</a>
+                            <a href="#" class="text-white bg-gray-600  hover:bg-gray-500  font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add to cart</a>
                         </div>
                     </div>
                 </div>
 
             </div>
-            <button type="button" class="text-white bg-gray-600 hover:bg-gray-500 focus:ring-4 focus:outline-solid  focus:ring-red font-medium rounded-lg text-sm px-4 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" style={{ margin: '4rem 0rem', height:'4rem',width:'13.5rem',fontSize:'1.2rem' }}>
-                View All Product
+            <button type="button" class="text-white w-52 h-[3.5rem] bg-gray-600 hover:bg-gray-500  font-medium rounded-lg text-lg px-4 py-2.5 my-16 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" >
+                View All Products
                 <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
                 </svg></button>

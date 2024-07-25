@@ -2,15 +2,15 @@ import React from 'react'
 
 function Header() {
     return (
-        <div class='header-section p-4 h-fit' style={{margin:'4rem 0rem'}} >
-            <div className='title h-[40rem] w-full' >
-                <h1 className='heading text-9xl font-bold mb-0 mt-2 ms-2 text-gray ' > Welcome to <br></br>Fashion Drip</h1>
-                <h3 className='slogen text-start font-normal text-4xl ms-4 text-gray leading-tight'>Drip In Style , Rent With Ease</h3>
+        <div class='header-section my-16 p-4 h-fit'  >
+            <div className='title h-fit w-full' >
+                <h1 className='heading text-6xl md:text-7xl lg:text-9xl font-bold  my-2 ms-2 text-gray ' > Welcome to <br></br>Fashion Drip</h1>
+                <h3 className='slogen text-start font-normal text-xl md:text-3xl lg:text-4xl my-5 ms-4 text-gray leading-tight'>Drip In Style , Rent With Ease</h3>
 
-                <div className='images-section' style={{margin:'4rem 0rem'}}>
-                    <div id="default-carousel" class="relative w-full" data-carousel="slide">
+                <div className='images-section my-16'>
+                    <div id="default-carousel" class="relative w-[97%] mx-auto" data-carousel="slide">
 
-                        <div class=" relative h-screen sm:h-96 overflow-hidden rounded-lg md:h-screen">
+                        <div class=" relative  h-64 sm:h-96 overflow-hidden rounded-lg md:h-screen">
 
                             <div class="hidden duration-700 ease-in-out" data-carousel-item>
                                 <img src="https://images.pexels.com/photos/6347545/pexels-photo-6347545.jpeg?auto=compress&cs=tinysrgb&w=600" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."></img>
@@ -66,13 +66,14 @@ function Header() {
                     <h5 class="mb-2 text-4xl font-bold tracking-tight text-gray-900 dark:text-white" style={{textDecoration:'none'}}>Our Mission</h5>
                 </a>
                 <p class="mb-3 font-normal text-2xl text-gray-700 dark:text-gray-400">To provide a platform where users can buy, rent and wishlist their favorite clothes from various sellers with ease.</p>
-                <a href="#" class="inline-flex items-center px-3 py-2 text-lg font-medium text-center text-white bg-gray-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                <a href="#" class="inline-flex items-center px-3 py-2 text-lg font-medium text-center text-white bg-gray-700 rounded-lg hover:bg-blue-800  dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                     Learn More
                     <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
                     </svg>
                 </a>
             </div>
+            
         </div>
     )
 }

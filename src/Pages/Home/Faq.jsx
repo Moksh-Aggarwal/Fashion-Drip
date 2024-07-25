@@ -2,10 +2,10 @@ import React from 'react'
 
 function Faq() {
     return (
-        <div className=' items-center mt-30' style={{ margin: '4rem 0rem', alignItems: 'center' }}>
-            <h1 class="font-medium items-center leading-none tracking-tight md:text-5xl lg:text-6xl text-gray mb-0 " style={{ marginLeft: '1rem', fontSize: '6rem' }} >Frequently Asked <br></br> Questions
+        <div className=' flex flex-col items-center my-16 w-full' >
+            <h1 class="heading text-6xl md:text-7xl lg:text-9xl font-bold  my-2 ms-7 text-gray  "  >Frequently Asked <br></br> Questions
             </h1>
-            <p class="font-normal text-2xl ms-4 text-gray leading-tight mb-4" style={{ marginBottom: '3rem', marginTop: '1rem' }} >Have a question? We've got answers
+            <p class="slogen text-start font-normal text-xl md:text-3xl lg:text-4xl my-5 ms-4 text-gray leading-tight" >Have a question? We've got answers
             </p>
 
 
