@@ -73,6 +73,7 @@ function Member() {
         <button type="button" class="text-white bg-gray-600  hover:bg-gray-500  dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">Choose plan</button>
       </div>
 
+  
     </div>
 
     <button type="button" class="text-white w-52 h-[3.5rem] bg-gray-600 hover:bg-gray-500  font-medium rounded-lg text-lg px-6 py-2.5 my-16 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" >
