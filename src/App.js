@@ -1,9 +1,5 @@
 
 import './App.css';
-<<<<<<< HEAD
-=======
-// import 'bootstrap/dist/css/bootstrap.min.css';
->>>>>>> 9b28723 (removed bootstrap)
 import Navbar from './Components/Navbar/Navbar';
 import Home from './Pages/Home/Home';
 
