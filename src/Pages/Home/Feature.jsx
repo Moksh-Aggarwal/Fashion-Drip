@@ -10,7 +10,7 @@ function Feature() {
 
             <div className=' flex flex-row flex-wrap justify-around w-full'>
 
-                <div class=" w-full my-20 mx-5 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <div class=" w-full my-4 mx-5 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
                         <img class="p-8 rounded-t-lg" src="https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=600" alt="product image" />
                     </a>
@@ -48,7 +48,7 @@ function Feature() {
 
 
 
-                <div class="w-full my-20 mx-5 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <div class="w-full my-4 mx-5 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
                         <img class="p-8 rounded-t-lg" src="https://images.pexels.com/photos/10877346/pexels-photo-10877346.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="product image" />
                     </a>
@@ -87,7 +87,7 @@ function Feature() {
 
 
 
-                <div class="w-full my-20 mx-5 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <div class="w-full my-4 mx-5 max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                     <a href="#">
                         <img class="p-8 rounded-t-lg" src="https://images.pexels.com/photos/1082528/pexels-photo-1082528.jpeg?auto=compress&cs=tinysrgb&w=600" alt="product image" />
                     </a>
